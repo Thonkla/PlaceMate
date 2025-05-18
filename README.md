@@ -15,11 +15,10 @@
 ---
 ## 🛠️ Tech Stack
 
-- **Frontend:** React Native (Expo)
+- **Frontend:** React
 - **Backend:** Node.js + Express
 - **Database:** PostgreSQL (via Prisma ORM)
 - **Authentication:** JSON Web Token (JWT)
-- **Deployment:** Render / Vercel / Railway *(optional)*
 
 ---
 ## 🔧 How to Run the Project
@@ -28,7 +27,10 @@
 
   ```bash
   git clone https://github.com/YOUR_USERNAME/placemate.git
+  ```
+  ```bash
   cd placemate
+  ```
 
 2. Install dependencies
   ```bash
