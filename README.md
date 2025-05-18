@@ -4,18 +4,13 @@
 ## 🚀 Features
 
 - 🔖 **List To Go** – Save and manage your must-visit places like a travel wishlist.
-- 🗺️ **Route Recommendation** – Get optimal travel paths for your saved places.
-- 💸 **Discount Checker** – View available promotions from registered stores.
 - 📅 **Travel Planner** – Plan your trip with a calendar interface.
-- 🕒 **Travel Time Estimation** – Calculate how long it takes to reach each destination.
 - 🔍 **Search & Filter** – Find places by name or tags and filter by distance, ratings, or deals.
 - 📝 **Reviews & Ratings** – Leave and read reviews for places and stores.
-- ✍️ **Blog System** – Share travel experiences or browse travel stories.
 - 👤 **User Profile** – Manage your profile, see recommended users, and track friends' activities.
 - 🧠 **Smart Recommendation** – Personalized suggestions based on your preferences.
-- 💤 **Rest Stop Suggestions** – Recommend places to relax on long trips.
 - 🌆 **Popular Places** – Discover trending places in specific locations.
-- 🛍️ **Store Management** – Store owners can manage profiles and promotions.
+- 🛍️ **Store Management** – Store owners can manage profiles.
 
 ---
 ## 🛠️ Tech Stack
