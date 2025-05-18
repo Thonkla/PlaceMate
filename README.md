@@ -166,6 +166,11 @@ npm install sweetalert2
 npm install multer
 ```
 
+## About place data
+```bash
+Contact me at pongsakorn.srimang@gmail.com
+```
+
 # Contributors
 ```
 Pongsakorn Srimang
