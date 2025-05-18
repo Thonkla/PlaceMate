@@ -143,6 +143,11 @@ npm install cookie-parser
 npm install js-cookie
 ```
 
+## About place data
+```bash
+Contact me at pongsakorn.srimang@gmail.com
+```
+
 ## About PostgreSQL database
 
 ### 1.ใช้ คำสั่ง npx prisma migrate status เพื่อเช็คว่า prisma มีการ apply หรือยัง
@@ -161,11 +166,6 @@ npm install sweetalert2
 ### 1.Download multer in backend
 ```bash
 npm install multer
-```
-
-## About place data
-```bash
-Contact me at pongsakorn.srimang@gmail.com
 ```
 
 # Contributors
