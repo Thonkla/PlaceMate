@@ -16,9 +16,10 @@ function Login() {
     e.preventDefault();
     setLoading(true);
     setError("");
-
+    console.log("http://localhost:5000/api/login ", `${process.env.REACT_APP_API_URL}/api/login}`)
     try {
       const response = await axios.post("http://localhost:5000/api/login", 
+        
           { username, password },
           { withCredentials: true } // ต้องใช้เพื่อให้ axios ส่งคุกกี้ไปกับ request
       );

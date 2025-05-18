@@ -13,7 +13,9 @@ const prisma = new PrismaClient();
 
 app.use(cookieParser());  // ใช้ middleware นี้ก่อนที่จะมีการจัดการ route อื่นๆ
 
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:5000']; // ใส่ URL ของ frontend ที่อนุญาต
+const allowedOrigins = ['http://localhost:3000', 
+                        'http://192.168.1.2:3000', 
+                        'http://localhost:5000']; // ใส่ URL ของ frontend ที่อนุญาต
 
 app.use(cors({
   origin: function (origin, callback) {
@@ -108,5 +110,5 @@ app.use("/api/google", googleRoutes);
 
 // Start Server
 const PORT = 5000;
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
-// app.listen(PORT, () => console.log(`Server running on ${process.env.REACT_APP_API_URL}:${PORT}`));
+// app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server running on ${process.env.REACT_APP_API_URL}:${PORT}`));
